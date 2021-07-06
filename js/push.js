@@ -7,5 +7,8 @@ function LinePush() {
         xhr.open("POST", _url, true);
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         xhr.send("UserID=" + userID + "&TxtID=" + txtID);
+        document.getElementById("userID").value = '';
+        document.getElementById("txtID").value = '';
+        alert("已發送");
     }
 }

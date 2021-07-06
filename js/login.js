@@ -11,7 +11,7 @@ function Login() {
         var _changeUrl = "https://notify-bot.line.me/oauth/authorize?";
         _changeUrl += "response_type=code";
         _changeUrl += "&client_id=7flF9g8ZjNmsHjXz2UV8HE";
-        _changeUrl += "&redirect_uri=https://777x777ethan.github.io/fuhbiclinepush/";
+        _changeUrl += "&redirect_uri=https://777x777ethan.github.io/fuhbiclinepush";
         _changeUrl += "&scope=notify";
         _changeUrl += "&state=" + userID;
         window.location.assign(_changeUrl);

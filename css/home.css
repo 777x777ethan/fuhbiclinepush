@@ -1,0 +1,214 @@
+body {
+    background-color: #f6f7f9;
+    min-width: 375px;
+}
+
+.myButton {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    color: #1b3a57;
+    margin-left: 50px;
+}
+
+.hrClass {
+    position: relative;
+    border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+    margin: 20px 40px 40px;
+}
+
+.listBlock {
+    font-size: 18px;
+    display: inline-block;
+    margin: 10px;
+    color: #1b3a57;
+}
+
+.listBlockC {
+    color: #0273b5;
+    font-weight: bold;
+    cursor: default;
+}
+
+#bottomC {
+    position: absolute;
+    height: 2px;
+    width: 92px;
+    background-color: #0072b5;
+    left: 0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.mainBlock {
+    padding: 10px 0px;
+    position: relative;
+    margin: 0px auto 10px;
+    border-radius: 15px;
+    max-width: 960px;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    color: #1b3a57;
+}
+
+#addBlock {
+    height: 50px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.addPush {
+    margin-right: 10px;
+    float: right;
+    padding: 10px 20px;
+    background-color: #0072b5;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.addPush:hover {
+    opacity: 0.8;
+}
+
+.mainBlock .title {
+    padding-bottom: 10px;
+    border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-size: 0px;
+}
+
+.mainBlock .title div {
+    padding: 10px 0px;
+    color: #1b3a57;
+    font-size: 18px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.noPushInfo {
+    text-align: center;
+    padding: 10px;
+    color: gainsboro;
+}
+
+#allInfoBlock {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    height: 40px;
+}
+
+.oneInfo {
+    color: #1b3a57;
+    padding: 20px 0px;
+    font-size: 0px;
+    min-width: 375px;
+    cursor: pointer;
+    height: 20px;
+}
+
+.oneInfo:hover {
+    background-color: gainsboro;
+}
+
+.sendTimeInfo {
+    padding-left: 20px;
+    font-size: 12px;
+    width: 80px;
+    float: left;
+}
+
+.stateInfo {
+    padding: 0px 10px;
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+}
+
+.pushInfo {
+    padding: 0px 20px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+#addMain {
+    margin-top: 50px;
+    padding: 10px 40px;
+}
+
+#myPushText {
+    width: 250px;
+    border-radius: 15px;
+    resize: none;
+    border: gainsboro solid 1px;
+    font-size: 14px;
+    height: 80px;
+    padding: 20px;
+}
+
+#myPushText:focus {
+    outline: none !important;
+    border: 2px solid #0072b5;
+    padding: 19px;
+}
+
+#peopleBlock {
+    border-radius: 15px;
+    border: gainsboro solid 1px;
+    font-size: 14px;
+    min-height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.person {
+    border-radius: 5px;
+    border: gainsboro solid 1px;
+    box-shadow: 0 1px 1px 0 rgba(60, 64, 67, .3);
+    padding: 5px;
+    display: inline-block;
+    margin: 1px;
+}
+
+.pushButton {
+    margin-right: 10px;
+    float: right;
+    padding: 10px 20px;
+    background-color: #00b5b2;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0px;
+}
+
+.pushButton:hover {
+    opacity: 0.8;
+}

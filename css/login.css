@@ -1,0 +1,196 @@
+input {
+    width: 280px;
+    border: 0 none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.main {
+    height: 100vh;
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+}
+
+.logoImg {
+    padding: 80px;
+}
+
+.login {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.loginBlock {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    background-color: rgba(200, 200, 200, .1);
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+}
+
+.loginHeader {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    user-select: none;
+    height: 45px;
+    background: #0072b5;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.loginUserID {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.loginUserID input:focus {
+    width: 276px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.loginPassword {
+    width: 300px;
+    margin: auto;
+    margin-top: 4px;
+    position: relative;
+}
+
+.loginPassword input {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 240px;
+}
+
+.loginPassword input:focus {
+    width: 235px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.openPassword {
+    width: 39px;
+    height: 43px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.openPasswordEyes {
+    user-select: none;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    filter: invert(84%) sepia(0%) saturate(0%) hue-rotate(113deg) brightness(96%) contrast(95%);
+}
+
+.openPasswordBtn {
+    cursor: pointer;
+    position: absolute;
+    width: 39px;
+    height: 43px;
+    top: 0;
+    right: 0;
+}
+
+.loginBtn {
+    user-select: none;
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+    background-color: #0072b5;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    border: none;
+}
+
+.hrClass {
+    height: 1px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 40px 40px 20px;
+}
+
+.forgetPassword {
+    user-select: none;
+    cursor: pointer;
+    color: rgb(103, 103, 139);
+    text-align: center;
+    height: 45px;
+    margin: 0 50px 0;
+    line-height: 45px;
+}
+
+.errorBlock {
+    padding: 10px;
+    color: red;
+    visibility: hidden;
+}
+
+.reOK {
+    cursor: default;
+    position: absolute;
+    background-color: #2ec29c;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.reOK::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    top: 50%;
+    left: 45%;
+    transform: translate3d(-80%, 0%, 0) rotate(45deg);
+}
+
+.reOK::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    top: 50%;
+    left: 45%;
+    transform: translate3d(-20%, -100%, 0) rotate(-45deg);
+}
+
+
+/* rwd */
+
+@media screen and (max-width: 400px) {
+    .loginBlock {
+        width: auto;
+    }
+}
